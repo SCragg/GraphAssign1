@@ -133,9 +133,9 @@ void init(GLWrapper *glw)
 	}
 
 	//Load our audio
-	AudioPlayer.Stream("dont_fence_me_in.wav");
+	AudioPlayer.Stream("dont_fence_me_in.mp3");
 	//Play and straight away pause it
-	AudioPlayer.Play("dont_fence_me_in.wav");
+	AudioPlayer.Play("dont_fence_me_in.mp3");
 	AudioPlayer.Pause();
 
 	/* Define uniforms to send to vertex shader */

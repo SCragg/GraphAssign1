@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\ebebefa993f852de9dd386c52b5c6d34\Continuous.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Documents\Development\C++\Libraries\Assimp\test\CMakeFiles\Continuous" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{51817E73-0525-3076-90B0-2B5E3D791363}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

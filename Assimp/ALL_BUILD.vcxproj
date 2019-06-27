@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7919B050-72C9-3416-BBEE-E9A5183A8C91}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\.;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\include;D:\Documents\Development\C++\Libraries\Assimp;D:\Documents\Development\C++\Libraries\Assimp\include;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\contrib\zlib;D:\Documents\Development\C++\Libraries\Assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\.;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\include;D:\Documents\Development\C++\Libraries\Assimp;D:\Documents\Development\C++\Libraries\Assimp\include;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\contrib\zlib;D:\Documents\Development\C++\Libraries\Assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\.;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\include;D:\Documents\Development\C++\Libraries\Assimp;D:\Documents\Development\C++\Libraries\Assimp\include;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\contrib\zlib;D:\Documents\Development\C++\Libraries\Assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\.;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\include;D:\Documents\Development\C++\Libraries\Assimp;D:\Documents\Development\C++\Libraries\Assimp\include;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\contrib\zlib;D:\Documents\Development\C++\Libraries\Assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0 -BD:/Documents/Development/C++/Libraries/Assimp --check-stamp-file D:/Documents/Development/C++/Libraries/Assimp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/CMakeLists.txt;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\CMakeLists.txt;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\assimp-config-version.cmake.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\assimp-config.cmake.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\assimp.pc.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\FindDevIL.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\FindDirectX.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\FindPkgMacros.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\FindZLIB.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\PrecompiledHeader.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\cmake_uninstall.cmake.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\include\assimp\config.h.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\revision.h.in;D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\3.13.0-rc1\CMakeCCompiler.cmake;D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\3.13.0-rc1\CMakeCXXCompiler.cmake;D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\3.13.0-rc1\CMakeRCCompiler.cmake;D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\3.13.0-rc1\CMakeSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckFunctionExists.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckIncludeFileCXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckTypeSize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindPkgConfig.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0 -BD:/Documents/Development/C++/Libraries/Assimp --check-stamp-file D:/Documents/Development/C++/Libraries/Assimp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/CMakeLists.txt;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\CMakeLists.txt;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\assimp-config-version.cmake.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\assimp-config.cmake.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\assimp.pc.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\FindDevIL.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\FindDirectX.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\FindPkgMacros.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\FindZLIB.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\PrecompiledHeader.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\cmake_uninstall.cmake.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\include\assimp\config.h.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\revision.h.in;D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\3.13.0-rc1\CMakeCCompiler.cmake;D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\3.13.0-rc1\CMakeCXXCompiler.cmake;D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\3.13.0-rc1\CMakeRCCompiler.cmake;D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\3.13.0-rc1\CMakeSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckFunctionExists.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckIncludeFileCXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckTypeSize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindPkgConfig.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0 -BD:/Documents/Development/C++/Libraries/Assimp --check-stamp-file D:/Documents/Development/C++/Libraries/Assimp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/CMakeLists.txt;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\CMakeLists.txt;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\assimp-config-version.cmake.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\assimp-config.cmake.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\assimp.pc.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\FindDevIL.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\FindDirectX.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\FindPkgMacros.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\FindZLIB.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\PrecompiledHeader.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\cmake_uninstall.cmake.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\include\assimp\config.h.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\revision.h.in;D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\3.13.0-rc1\CMakeCCompiler.cmake;D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\3.13.0-rc1\CMakeCXXCompiler.cmake;D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\3.13.0-rc1\CMakeRCCompiler.cmake;D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\3.13.0-rc1\CMakeSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckFunctionExists.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckIncludeFileCXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckTypeSize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindPkgConfig.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"D:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0 -BD:/Documents/Development/C++/Libraries/Assimp --check-stamp-file D:/Documents/Development/C++/Libraries/Assimp/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/CMakeLists.txt;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\CMakeLists.txt;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\assimp-config-version.cmake.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\assimp-config.cmake.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\assimp.pc.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\FindDevIL.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\FindDirectX.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\FindPkgMacros.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\FindZLIB.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\PrecompiledHeader.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\cmake-modules\cmake_uninstall.cmake.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\include\assimp\config.h.in;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\revision.h.in;D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\3.13.0-rc1\CMakeCCompiler.cmake;D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\3.13.0-rc1\CMakeCXXCompiler.cmake;D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\3.13.0-rc1\CMakeRCCompiler.cmake;D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\3.13.0-rc1\CMakeSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckFunctionExists.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckIncludeFileCXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\CheckTypeSize.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\FindPkgConfig.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\Program Files (x86)\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Users\skcra\Downloads\assimp-4.1.0\assimp-4.1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Documents\Development\C++\Libraries\Assimp\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Documents\Development\C++\Libraries\Assimp\ZERO_CHECK.vcxproj">
+      <Project>{C167DDF1-7578-3A4D-ADB4-94B6EC010967}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\Development\C++\Libraries\Assimp\contrib\irrXML\IrrXML.vcxproj">
+      <Project>{A5B27E25-AE37-3E29-B36B-82264D4460EF}</Project>
+      <Name>IrrXML</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\Development\C++\Libraries\Assimp\code\assimp.vcxproj">
+      <Project>{0CFFE8D0-D2F7-3BAB-A63F-DE7EBD652699}</Project>
+      <Name>assimp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\Development\C++\Libraries\Assimp\tools\assimp_cmd\assimp_cmd.vcxproj">
+      <Project>{BE41D45C-4B2D-346A-A151-47FE15E7B8C1}</Project>
+      <Name>assimp_cmd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\Development\C++\Libraries\Assimp\tools\assimp_view\assimp_viewer.vcxproj">
+      <Project>{DF9715E1-DD81-37BB-AC47-0EBE265A9D6E}</Project>
+      <Name>assimp_viewer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\Development\C++\Libraries\Assimp\test\unit.vcxproj">
+      <Project>{00179DE9-20FB-3255-96E3-146DCA2C84D8}</Project>
+      <Name>unit</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\Development\C++\Libraries\Assimp\contrib\zlib\zlib.vcxproj">
+      <Project>{85FEC444-B291-37C4-BFCF-10CE37A27DD7}</Project>
+      <Name>zlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Documents\Development\C++\Libraries\Assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{64826AB6-3A16-37B1-8E51-D70FEE803A51}</Project>
+      <Name>zlibstatic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

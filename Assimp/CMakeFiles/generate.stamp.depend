@@ -1,0 +1,42 @@
+# CMake generation dependency list for this directory.
+C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/CMakeLists.txt
+C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/assimp-config-version.cmake.in
+C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/assimp-config.cmake.in
+C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/assimp.pc.in
+C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/cmake-modules/FindDevIL.cmake
+C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/cmake-modules/FindDirectX.cmake
+C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/cmake-modules/FindPkgMacros.cmake
+C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/cmake-modules/FindZLIB.cmake
+C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/cmake-modules/PrecompiledHeader.cmake
+C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/cmake-modules/cmake_uninstall.cmake.in
+C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/include/assimp/config.h.in
+C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/revision.h.in
+D:/Documents/Development/C++/Libraries/Assimp/CMakeFiles/3.13.0-rc1/CMakeCCompiler.cmake
+D:/Documents/Development/C++/Libraries/Assimp/CMakeFiles/3.13.0-rc1/CMakeCXXCompiler.cmake
+D:/Documents/Development/C++/Libraries/Assimp/CMakeFiles/3.13.0-rc1/CMakeRCCompiler.cmake
+D:/Documents/Development/C++/Libraries/Assimp/CMakeFiles/3.13.0-rc1/CMakeSystem.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CMakeCInformation.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CMakeCXXInformation.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CMakeCommonLanguageInclude.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CMakeGenericSystem.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CMakeInitializeConfigs.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CMakeLanguageInformation.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CMakeRCInformation.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CheckFunctionExists.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CheckIncludeFile.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CheckIncludeFileCXX.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CheckTypeSize.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/Compiler/MSVC-C.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/Compiler/MSVC-CXX.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/FindOpenGL.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/FindPackageMessage.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/FindPkgConfig.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/Platform/Windows-MSVC-C.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/Platform/Windows-MSVC.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/Platform/Windows.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/Platform/WindowsPaths.cmake

@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/contrib/zlib/CMakeLists.txt
+C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/contrib/zlib/zconf.h.cmakein
+C:/Users/skcra/Downloads/assimp-4.1.0/assimp-4.1.0/contrib/zlib/zlib.pc.cmakein
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CheckCSourceCompiles.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CheckFunctionExists.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CheckIncludeFile.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CheckIncludeFileCXX.cmake
+D:/Program Files (x86)/CMake/share/cmake-3.13/Modules/CheckTypeSize.cmake
